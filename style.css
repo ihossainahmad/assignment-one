@@ -4,3 +4,56 @@
   /* font-weight: <weight>; */
   font-style: normal;
 }
+.learn-more-btn {
+  width: 170px;
+  height: 47px;
+  padding: 12px 20px;
+  font-family: azeret-mono, "Times New Roman", Times, serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-container {
+  margin-top: 36px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 600px;
+  background-image: url(assets/Hero-bg.png);
+}
+.banner-content {
+  text-align: center;
+}
+.banner-btn {
+  background-color: #0d1321;
+  color: #ffffff;
+  width: 244px;
+  height: 65px;
+  border-radius: 8px;
+  padding: 21px 24px;
+}
+
+.why-web-dev {
+  width: 1140px;
+  height: 1393px;
+  margin: 0 auto;
+}
+
+.section-title,
+.section-decription {
+  text-align: center;
+}
+
+.first-layer {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.first-layer-content {
+  width: 475px;
+  height: 219px;
+}
