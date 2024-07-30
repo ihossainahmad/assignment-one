@@ -41,8 +41,13 @@
   width: 1140px;
   height: 1393px;
   margin: 0 auto;
+  padding: 80px 97px;
 }
-
+.sec-title-description {
+  width: 852px;
+  height: 113px;
+  margin: 80px 47px 48px 47px;
+}
 .section-title,
 .section-decription {
   text-align: center;
@@ -52,8 +57,37 @@
   display: flex;
   justify-content: center;
   gap: 90px;
+  width: 946px;
+  height: 336px;
+  padding: 48px;
 }
-.first-layer-content {
+/* .first-layer-content { 
   width: 475px;
+  height: 219px;
+} */
+.second-layer {
+  display: flex;
+  justify-content: center;
+  width: 946px;
+  height: 336px;
+  padding: 48px;
+  gap: 32px;
+}
+
+.second-layer-content {
+  width: 477px;
+  height: 219px;
+}
+.third-layer {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  width: 946px;
+  height: 336px;
+  padding: 48px;
+}
+
+.third-layer-content {
+  width: 477px;
   height: 219px;
 }
