@@ -91,3 +91,8 @@
   width: 477px;
   height: 219px;
 }
+
+.inspiration {
+  display: flex;
+  align-items: center;
+}
