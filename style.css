@@ -47,8 +47,8 @@ p {
 }
 
 .why-web-dev {
-  width: 1140px;
-  height: 1393px;
+  /* width: 1140px;
+  height: 1393px; */
   margin: 0 auto;
   padding: 80px 97px;
 }
@@ -111,11 +111,36 @@ p {
 }
 .next-target-content {
   width: 1140px;
-  height: 150px;
+  height: 140px;
   border: 0.1px solid #0d1321;
   border-radius: 16px;
   display: flex;
   gap: 24px;
   padding: 55px 40px;
   margin-bottom: 20px;
+}
+.footer-main {
+  width: 1140px;
+  height: 310px;
+  border: 0.1px solid #0d1321;
+  border-radius: 16px;
+  background-image: url(assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+input {
+  width: 548px;
+  height: 50px;
+  border-radius: 5px;
+}
+.footer-btn {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.last-section {
+  display: flex;
+  justify-content: space-between;
 }
